@@ -6,6 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rowdies:wght@300;400;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=M+PLUS+Rounded+1c&display=swap');
+
 
 *, body{
     
@@ -28,7 +31,8 @@ border-bottom: 3px solid rgb(143, 0, 0);
 header > h1{
     text-align: center;
     font-size: 2.5em;
-    font-family: "Rowdies", sans-serif;
+    font-style: italic;
+    font-family: "M PLUS Rounded 1c", serif;
 }
 
 div#ferrari{
@@ -81,7 +85,7 @@ transform: translate(940%, -70%);
 
 div#texto > p{
     width: 500px;
-    font-family: "Comfortaa", sans-serif;
+    font-family: "M PLUS Rounded 1c", serif;
     color: white;
     padding: 5px;
     height: 400px;
@@ -96,7 +100,7 @@ div#texto > p{
 
 div#texto > p:hover{
     width: 500px;
-    font-family: "Comfortaa", sans-serif;
+    font-family: "M PLUS Rounded 1c", serif;
     padding: 5px;
     color: white;
     height: 400px;
@@ -174,9 +178,30 @@ div#interior{
 }
 
 
+div#interior:hover{
+    background-image:  linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.39) 79%), url(Ferrari-sf90-spider-7.webp);
+    background-position: center center;
+    position: absolute;
+    top: 109%;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+
+    
+
+
+    
+    
+
+    
+}
+
+
 div#interior > p{
     width: 500px;
-    font-family:   "Comfortaa", sans-serif;
+    font-family:  "M PLUS Rounded 1c", serif;
     text-align: right;
     color: white;
     font-size: smaller;
@@ -192,7 +217,7 @@ div#interior > p{
 
 div#interior > p:hover{
     width: 500px;
-    font-family:   "Comfortaa", sans-serif;
+    font-family:  "M PLUS Rounded 1c", serif;
     text-align: right;
     color: white;
     font-size: smaller;
@@ -200,7 +225,7 @@ div#interior > p:hover{
     margin: 4px;
     transform: translate(290%), 50%;
     overflow-y: scroll;
-    background-color: rgba(0, 0, 0, 0.219);
+
 }
 
 div#interior > p::-webkit-scrollbar {
@@ -245,7 +270,7 @@ div#rodas:hover{
 
 div#rodas > p{
     width: 500px;
-    font-family:   "Comfortaa", sans-serif;
+    font-family:   "M PLUS Rounded 1c", serif;
     text-align: right;
     color: white;
     font-size: smaller;
@@ -268,12 +293,25 @@ div#motor{
     overflow-x: hidden;   
 }
 
+div#motor:hover{
+    background-image:  linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.39) 79%), url(motor-ferrari.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    top: 305%;
+    overflow-x: hidden;   
+}
+
 div#motor > p{
     width: 500px;
-    font-family:   "Comfortaa", sans-serif;
+    font-family:   "M PLUS Rounded 1c", serif;
     text-align: right;
+    font-style: normal;
     color: white;
-    font-size: smaller;
+    font-size: normal;
     height: 500px;
     margin: 4px;
     transform: translate(290%, 50%);
@@ -283,7 +321,7 @@ div#motor > p{
 
 div#motor > p:hover{
     width: 500px;
-    font-family:   "Comfortaa", sans-serif;
+    font-family:   "M PLUS Rounded 1c", serif;
     text-align: right;
     color: white;
     font-size: smaller;
@@ -291,7 +329,6 @@ div#motor > p:hover{
     margin: 4px;
     transform: translate(290%, 50%);
     overflow-y: auto;
-    background-color: rgba(0, 0, 0, 0.164);
     overflow-x: hidden;
 }
 
