@@ -87,7 +87,7 @@ div#texto > p{
     font-size: small;
     overflow-y: auto; /*barra de rolagem*/
     display: flex;
-    transform: translate(5%, 20%);
+    transform: translate(30%, 10%);
 
     
 }
@@ -365,4 +365,12 @@ p{
     position: relative;
     width: 300px;
     padding-right: 70px;
+}
+
+
+img#ferrari{
+    position: absolute;
+    left: 55%;
+    width: 800px;
+    bottom: 20%;
 }
