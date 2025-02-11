@@ -35,19 +35,24 @@ header > h1{
     font-family: "M PLUS Rounded 1c", serif;
 }
 
+.carros{
+    display: flex;
+    flex-direction: column;
+}
+
 div#ferrari{
-    background: linear-gradient(45deg,rgb(131, 0, 0), rgb(194, 46, 46));
+    background: linear-gradient(45deg,rgb(197, 151, 0), rgb(255, 196, 0));
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
     box-sizing: border-box;
-    border-bottom: 4px dotted black;
+    
 }
 
 div#ferrari:hover{
-    background: linear-gradient(45deg,rgb(131, 0, 0), rgb(194, 46, 46));
+    background: linear-gradient(45deg,rgb(197, 151, 0), rgb(196, 150, 0));
     width: 100%;
     height: 100vh;
     display: flex;
@@ -87,7 +92,7 @@ div#texto > p{
     font-size: small;
     overflow-y: auto; /*barra de rolagem*/
     display: flex;
-    transform: translate(30%, 10%);
+    transform: translate(30%, 20%);
 
     
 }
@@ -145,11 +150,11 @@ h2#motor{
     padding-top: 50px;
 }
 
-div#Mostang{
+div#Mustang{
     background: linear-gradient(45deg,rgb(131, 0, 0), rgb(194, 46, 46));
     background-position: center center;
     position: absolute;
-    top: 109%;
+    top: 110%;
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -162,7 +167,7 @@ div#Mustang:hover{
     background: linear-gradient(45deg,rgb(131, 0, 0), rgb(194, 46, 46));
     background-position: center center;
     position: absolute;
-    top: 109%;
+    top: 110%;
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -223,44 +228,15 @@ div#Mustang > p::-webkit-scrollbar-track {
     background-color: rgba(250, 235, 215, 0); /* Cor de fundo do track (onde a barra de rolagem se move) */
 }
 
-div#Mercerdes{
-    background-image:url(pneu-ferrari.jpg);
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
+
+img#mustang{
     position: absolute;
-    height: 100vh;
-    top: 205%;
-    overflow-x: hidden;    
-
+    left: 46%;
+    top:90px;
+    width: 1000px;
+    height: 700px;
 }
 
-div#Mercerdes:hover{
-    background-image:  linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.39) 75%), url(pneu-ferrari.jpg);
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    position: absolute;
-    height: 100vh;
-    overflow-x: hidden;
-    top: 205%;
-
-}
-
-div#Mercerdes > p{
-    width: 500px;
-    font-family:   "M PLUS Rounded 1c", serif;
-    text-align: right;
-    color: white;
-    font-size: smaller;
-    height: 500px;
-    margin: 4px;
-    transform: translate(290%, 50%);
-    overflow-y: auto;
-    overflow-x: hidden;
-}
 
 div#Dodge{
     background-image:url(motor-ferrari.jpg);
@@ -364,4 +340,36 @@ img#ferrari{
     left: 55%;
     width: 800px;
     bottom: 20%;
+}
+
+
+div#bmw{
+    background: linear-gradient(4deg, rgb(0, 114, 245), rgb(55, 205, 255));
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    bottom: -2000px;
+}
+
+img#carroazul{
+    
+    left: 46%;
+    top:90px;
+    width: 1000px;
+    height: 700px;
+    left: 0px;
+}
+
+carro#bmw > p{
+    width: 500px;
+    font-family:  "M PLUS Rounded 1c", serif;
+    text-align: left;
+    color: rgb(180, 180, 180);
+    font-size: smaller;
+    height: 500px;
+    margin: 4px;
+    transform: translate(10%, 40%);
+    overflow-y: auto;
+    overflow-x: auto;
+
 }
