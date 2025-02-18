@@ -1,0 +1,1 @@
+PODEMOS USAR O pseudo-classe ":target" PARA CRIAR UM SLIDE
