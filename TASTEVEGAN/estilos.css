@@ -1,2 +1,108 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+:root{
+    --cor-primaria:#FFD800;
+    --cor-secundaria:#FF9826;
+    --cor-do-texto:#28251B;
+    --cor-de-fundo:#fff2bc;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    background-color: var(--cor-de-fundo);
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 5px 5px 5px rgba(29, 15, 0, 0.288);
+}
+
+header > h1{
+    font-size: 2.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: wrap;
+    
+
+
+}
+
+.menu button{
+    background: none;
+    color: var(--cor-do-texto);
+    padding: 10px;
+    margin: 5px;
+    font-size:20px ;
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 20px;
+}
+
+.menu button:hover{
+    background-color: var(--cor-secundaria);
+    color:white;
+    padding: 10px;
+    margin: 5px;
+    font-size:20px ;
+    border: none;
+    border-radius: 20px;
+}
+
+.opcoes{
+   padding: 15px;
+   display: inline;
+}
+
+.opcoes li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    
+    border-radius: 5px;
+}
+
+.opcoes li:hover{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #FF9826;
+    color:white;
+    border-radius: 5px;
+}
+
+.opcoes li a{
+    font-family: "Atkinson Hyperlegible Next", serif;
+    color: var(--cor-do-texto);
+    text-decoration: none;
+   font-weight: 400;
+   font-size:larger;
+}
+
+
+
+
+.opcoes li a:hover{
+    font-family: "Atkinson Hyperlegible Next", serif;
+    color: white;
+    text-decoration: none;
+   font-weight:700;
+   font-size:larger;
+}
