@@ -23,6 +23,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body,html{
@@ -153,10 +154,24 @@ img#logo{
 }
 
 div#apresentaçao{
-    background-image: url(imagens/imagem01.jpg);
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.733) 60%),  url(imagens/imagem01.jpg);
     background-size: cover;
+    display: flex;
     background-repeat: no-repeat;
     background-position: center;
     width: 100vw;
     height: 100vh;
+}
+
+
+
+p#vegan{
+    color: var(--cor-de-fundo);
+    align-content:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.3em;
+    text-justify: auto;
+    margin: 78px;
+
+
 }
