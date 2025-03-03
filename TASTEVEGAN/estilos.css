@@ -27,7 +27,7 @@
 }
 
 body,html{
-    background-color: var(--cor-de-fundo);
+    background-color:white;
 }
 
 header{
@@ -81,13 +81,13 @@ header > h1{
 }
 
 .menu button:active{
-    background-color: #e78b00;
+    background-color: #d37f00;
     color:rgb(255, 255, 255);
     padding: 5px;
     font-weight: 400;
     margin: 3px;
     font-size:20px;
-    border: 3px double var(--cor-primaria);
+    border: 3px double var(--cor-secundaria);
     border-radius: 20px;
 }
 
@@ -174,4 +174,36 @@ p#vegan{
     margin: 78px;
 
 
+}
+
+.caixas{
+    display: flex;
+    justify-content: center;
+}
+
+.quadro{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    margin: 20px;
+    align-content:center;
+    border-radius: 50px;
+    height: 600px;
+    border: 0.5px solid black;
+    overflow: hidden;
+    
+}
+
+.quadro p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-content: flex-end;
+    margin: 5px;
+    color: var(--cor-do-texto);
+    font-size: 1.0em;
+}
+
+.quadro img#imgvegan{
+   position: relative;
+   align-items: center;
+   bottom: 50px;
 }
