@@ -78,7 +78,7 @@ h2{
     padding: 5px;
     margin: 5px;
     font-size:  20px;
-    border: 1px solid black;
+    border: none;
     border-radius: 20px;
 }
 
@@ -245,15 +245,20 @@ p#vegan{
 }
 
 .principal{
+
     display: flex;
+    margin-top: 50px;
 }
 
 .princ{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
     text-align: center;
+    gap: 50px;
+    align-content:flex-start;
+    justify-items: center;
     font-size: 1.1em;
     color: var(--cor-do-texto);
-    margin: 30px;
 
 }
 .ilustra1{
@@ -266,3 +271,18 @@ p#vegan{
     
 }
 
+.icone{
+    display: flex;
+    align-self: center;
+    height: 100px;
+    width: 120px;
+    
+}
+
+.conteudo{
+    background: url(imagens/fundo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
