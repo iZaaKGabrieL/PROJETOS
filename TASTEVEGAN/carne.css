@@ -1,8 +1,45 @@
 @charset "UTF-8";
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+
+
+
 :root{
     --cor-1:
     --cor-2:
     --cor-3:
     --cor-4:
+}
+
+body, html{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.princ{
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background: linear-gradient(to bottom, rgb(255, 136, 0) 50%, white 80%);
+
+}
+
+
+
+h2{
+    color: white;
+    font-size: 5.0em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39);
+    font-family:  "Bagel Fat One", system-ui, sans-serif;
+
+}
+
+.verde{
+    color: rgb(0, 182, 0);
+}
+
+.marrom{
+    color: rgb(192, 77, 0);
 }
