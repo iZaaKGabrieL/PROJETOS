@@ -43,3 +43,8 @@ h2{
 .marrom{
     color: rgb(192, 77, 0);
 }
+
+.texto{
+    display: flex;
+    width: 500px;
+}
