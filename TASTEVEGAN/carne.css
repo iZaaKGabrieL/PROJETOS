@@ -14,6 +14,7 @@
 }
 
 body, html{
+    overflow-x: hidden;
     margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -22,6 +23,7 @@ body, html{
     display: flex;
     width: 100vw;
     height: 100vh;
+    flex-direction: column;
     background-size: contain;
     background:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(imagens/carne-vegana.jpg);
     background-position: center;
@@ -58,15 +60,34 @@ h2{
 
 .texto p{
     background-color: rgba(0, 0, 0, 0.37);
-    border-radius: 10px;
+    border-radius: 25px;
     padding: 30px;
+    text-indent: 10px;
     font-family:  "Noto Sans Display", sans-seri;
     font-size: 1.3em;
-    letter-spacing: 1.0px;
-    text-align:center;
+    letter-spacing: 1.5px;
+    text-align:justify;
     text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.527);
     margin-top:20px;
     align-self: center;
     color: rgb(255, 250, 203);
     
+}
+
+.infoveg{
+    display: flex;
+    left: 50%;
+    margin: auto;
+    gap: 50px;
+    flex-direction: row;
+    align-items: center;
+    width: 1720px;
+    height: 1200px;
+}
+
+.produtos{
+
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
