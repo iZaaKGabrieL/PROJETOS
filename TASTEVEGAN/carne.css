@@ -91,3 +91,12 @@ h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+
+.veganinfo{
+    background: url(imagens/veganinfo.png);
+    background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+    width: 1720px;
+    height: 1200px;
+}
