@@ -93,10 +93,25 @@ h2{
 }
 
 .veganinfo{
-    background: url(imagens/veganinfo.png);
+    display: flex;
+    background:linear-gradient(to right, rgb(47, 146, 47), rgb(0, 65, 0));
+    background-size: contain;
     background-position: center;
-   background-size: contain;
-   background-repeat: no-repeat;
-    width: 1720px;
-    height: 1200px;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+img#legumes{
+
+}
+
+.items{
+    position: absolute;
+    right: 30%;
+    margin-top: 10px;
+    align-self: flex-start;
+    width: 400px;
+    height: 600px;
+    background-color: antiquewhite;
 }
