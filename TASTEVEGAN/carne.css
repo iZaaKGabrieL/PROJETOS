@@ -79,14 +79,14 @@ h2{
     left: 50%;
     margin: auto;
     gap: 50px;
-    flex-direction: row;
+    flex-direction: wrap;
     align-items: center;
     width: 1720px;
     height: 1200px;
 }
 
 .produtos{
-
+    align-self: safe;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -96,7 +96,7 @@ h2{
     display: flex;
     background:linear-gradient(to right, rgb(47, 146, 47), rgb(0, 65, 0));
     flex-wrap:wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     background-size: contain;
     align-items: center;
     background-position: center;
@@ -105,13 +105,11 @@ h2{
     height: 100vh;
 }
 
-.veganfood img#legume{
-    width: 400px;
-    height: 500px;
-}
+.infoveg img#legumes{
+    position: absolute;
+    right: 920px;
+    height: 100vh;
 
-.veganinfo img#legumes{
-    width: 1500px;
 }
 
 .items{
@@ -119,7 +117,7 @@ h2{
     margin-left: 15px;
     align-self: center;
     width: 400px;
-    height: 600px;
+    height: 500px;
     border-radius: 10px;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
 }
