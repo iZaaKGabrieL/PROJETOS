@@ -6,6 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 :root{
     --cor-1:
     --cor-2:
@@ -96,7 +100,7 @@ h2{
 .veganinfo{
     display: flex;
     background:linear-gradient(to right, rgb(47, 146, 47), rgb(0, 65, 0));
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-size: contain;
     align-items: center;
@@ -115,8 +119,8 @@ h2{
 
 .items{
     flex-flow: column-reverse;
-    align-content: stretch;
-    justify-content: center;
+    align-content: end;
+    justify-content: end;
     display: flex;
     margin-top: 10px;
     margin-left: 15px;
@@ -129,15 +133,14 @@ h2{
 
 button{
     margin: 10px;
+    text-transform: uppercase;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 73, 6);
     width: 370px;
     padding: 10px;
-    margin: auto;
     text-align: center;
     font-size: 1.2em;
     border: 2px solid green;
-    align-self: last baseline;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 20px;
 }
@@ -150,15 +153,13 @@ button:hover{
     padding: 10px;
     text-align: center;
     font-size: 1.2em;
-    margin: auto;
     border: none;
-    align-self: last baseline;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 20px;
 }
 
 .descri{
     text-align: center;
-    align-self: center;
-    margin: auto;
+    align-self: end;
+    font-family:  "Quicksand", sans-serif;
 }
