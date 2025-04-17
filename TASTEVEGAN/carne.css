@@ -163,3 +163,10 @@ button:hover{
     align-self: end;
     font-family:  "Quicksand", sans-serif;
 }
+
+.pratos{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.2em;
+    text-shadow: none;
+}
