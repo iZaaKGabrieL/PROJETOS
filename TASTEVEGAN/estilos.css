@@ -286,3 +286,17 @@ p#vegan{
     background-size: cover;
     opacity: 0.5;
 }
+
+footer{
+
+    background-color: #702d00;
+    width: 6000px;
+    height: 500px;
+    display: flex;
+    border-bottom: 10px solid #351500;
+
+}
+
+.lista{
+    
+}
