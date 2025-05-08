@@ -288,15 +288,37 @@ p#vegan{
 }
 
 footer{
-
+    justify-content: right;
+    align-self: center;
+    align-items: flex-start;
     background-color: #702d00;
-    width: 6000px;
-    height: 500px;
+    width: 100%;
+    height: 1100px;
     display: flex;
+    gap: 60px;
     border-bottom: 10px solid #351500;
 
 }
 
+
 .lista{
+    color: white;
+    display: flex;
+    margin: 90px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.8em;
     
+ 
 }
+
+.lista h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lista li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
