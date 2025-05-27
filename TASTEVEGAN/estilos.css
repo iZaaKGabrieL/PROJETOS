@@ -302,7 +302,7 @@ footer{
 
 
 .lista{
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     margin: 90px;
     align-items: center;
@@ -320,6 +320,22 @@ footer{
 
 .lista li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(158, 73, 73);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+
+.lista li:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.2em;
 }
 
 footer{
@@ -339,17 +355,21 @@ footer  h1{
     right: 50%;
 }
 
+form h3#subtitulo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(107, 61, 44);
+}
 
 footer form{
     border-radius: 10px;
-    border:5px solid #360e0e;
     display: flex;
     flex-direction: column;
     position: absolute;
     bottom: -85%;
     right: 70%;
-    border-radius: 10px;
-    background-color: #ff7518;
+    border-radius: 30px;
+    background-color: #ffbf94;
     width: 600px;
     height: 750px;
     gap: 30px;
@@ -363,7 +383,7 @@ footer form{
     margin: auto;
     padding-left: 50px;
     align-self: center;
-    background-color: #e4c200;
+    background-color: #fdfcf3;
     color: #3f1900;
     border-radius: 15px;
     border: none;
@@ -374,7 +394,7 @@ footer form{
 }
 
 .inputi:focus{
-    background-color: #e4c200;
+    background-color: #fff9d5;
     border: none;
     border-radius: 5px;
     outline: none;
@@ -383,3 +403,29 @@ footer form{
     height: 80px;
 }
 
+form button{
+    color: #00a035;
+    width: 250px;
+    height: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    border: none;
+    align-self: center;
+    border-radius: 10px;
+
+
+}
+
+form button:hover{
+    background-color: #00a035;
+    color: #ffffff;
+    width: 250px;
+    height: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    border: none;
+    align-self: center;
+    border-radius: 10px;
+
+
+}
