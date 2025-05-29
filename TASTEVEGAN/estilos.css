@@ -384,7 +384,7 @@ footer form{
     padding-left: 50px;
     align-self: center;
     background-color: #fdfcf3;
-    color: #3f1900;
+    color: #ffa365;
     border-radius: 15px;
     border: none;
     font-size: 1.1em;
@@ -427,5 +427,21 @@ form button:hover{
     align-self: center;
     border-radius: 10px;
 
+
+}
+
+div#redes-sociais{
+    justify-content: end;
+    position: absolute;
+    top: 190%;
+    left: 45%;
+    margin: auto;
+
+}
+
+.social-media{
+    margin: 15px;
+    flex-direction: row;
+    
 
 }
