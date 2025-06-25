@@ -320,7 +320,7 @@ footer{
 
 .lista li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(158, 73, 73);
+    color: rgb(255, 174, 0);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -339,7 +339,6 @@ footer{
 }
 
 footer{
-    
     display: flex;
 }
 
@@ -377,7 +376,10 @@ footer form{
 
 }
 
+footer p{
 
+    text-align: center;
+}
 
 .inputi{
     margin: auto;
@@ -394,7 +396,7 @@ footer form{
 }
 
 .inputi:focus{
-    background-color: #fff9d5;
+    background-color: #ffe9cc;
     border: none;
     border-radius: 5px;
     outline: none;
@@ -431,21 +433,44 @@ form button:hover{
 }
 
 .form{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form i{
+    color: #000000;
 }
 
 div#redes-sociais{
-    justify-content: end;
-    position: absolute;
-    top: 190%;
-    left: 45%;
-    margin: auto;
+    position:absolute;
+    margin-top: 30%;
+    left: 40%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+div#redes-sociais p{
+   color: #ffbd71;
+   text-align: center;
+   width: 1400px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+div#redes-sociais h3{
+   color: #ffffff;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 .social-media{
     margin: 15px;
-    flex-direction: row;
     
 
 }
