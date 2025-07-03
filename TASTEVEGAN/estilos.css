@@ -339,7 +339,8 @@ footer{
 }
 
 footer{
-    display: flex;
+    display: grid;
+    grid-template-columns: 500px auto auto;
 }
 
 footer  h1{
